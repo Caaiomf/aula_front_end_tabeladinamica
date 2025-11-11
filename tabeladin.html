@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabela dinâmica</title>
+	<meta charset="utf-8" />
+	 <style>
+	    *{font: 20px calibri;}
+        .myTable {
+            width: 50%;
+            border: 1px solid #000;
+        }
+
+        .myTable tr,td,th {        
+            border: 1px solid #000;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 style="font: 30px calibri;">Criando tabelas de forma dinâmica</h1>
+	<hr/>
+    <form>
+	    <input type="text" id="ra" placeholder="Informe o Nome"/>
+		<input type="text" id="name" placeholder="Informe o Nome"/>
+        <input type="text" id="course" placeholder="Informe o Curso"/>
+		<button onclick="adicionarItem()">cadastrar</button>
+    </form>
+    
+    <hr/>
+    <div>
+        <table class="myTable" id="tabela">
+		
+		</table>
+    </div>
+<script src="funcoes.js"></script>
+</body>
